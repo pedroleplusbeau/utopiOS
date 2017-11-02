@@ -1,0 +1,174 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr,
+acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike,
+strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label,
+legend,table, caption, tbody, tfoot, thead, tr, th, td
+{ margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%;
+vertical-align: baseline; }
+
+/* Défini Abril Fatface pour toutes les balises h2, h3 */
+h2,h3,h1{font-family: 'Raleway', sans-serif; font-weight: 200;}
+
+/* Défini Open Sans pour toutes les balises p, a, h1 */
+p {font-family: 'Raleway', sans-serif; font-size: 18px; font-weight: 200; color: #25766d;}
+
+#contenu1{
+  background-color:#ebe9e9;
+  height: 100%;
+  width: 100%;
+}
+
+/* Menu */
+#menu {
+  position: fixed;
+    width: 100%;
+    z-index: 10;
+    }
+        a{
+      text-decoration: none;
+      color: white;
+      font-family:'Raleway', sans-serif;
+      display:block;
+     }     
+      a:hover{color: #46b274}
+        li{
+      font-size: 17px;
+      margin: 15px;
+      padding-left:10px;
+      line-height: 100%;
+      display: inline-block;
+          }
+        .logo{
+      margin: 20px;
+      display: inline-block;
+        }
+
+    .pro{
+      border-width:2px;
+      border-style:solid;
+      border-color:white;
+      padding-left:15px;
+      padding-right:15px;
+      padding-top:5px;
+      padding-bottom:5px;
+      border-radius: 10px;
+      }
+
+        ul{
+      text-align: center;
+      list-style-type: none;
+      background-color: #25766d;
+      padding-right: auto;
+      }  
+
+ /* Fin menu */
+      
+#titre{
+    padding:100px;
+    text-align:center;
+    font-size: 60px;
+    background-image: url("../ressources_communes/aurore.jpg");
+    background-size: 100% auto;
+    color:white;
+      }
+
+	
+  #bloc_questions{
+  	position:absolute;
+  	top: 50%;
+  	background-color:#ebe9e9;
+  	height:450px;
+	width:350px;
+  	border-radius:10px;
+  	margin-left:70%;
+
+  }
+  #contenu_questions{
+  	position:absolute;
+  	top: 55%;
+  	padding-left: 20px;
+  	padding-top: 20px;
+  	width:250px;
+    margin-top:-250px;
+
+
+  }
+.style_couleur{
+	color:#46b274;
+  font-weight: 400;
+}
+.photo_membre{
+  float:left;
+  border-radius:200px;
+}
+#alexis{
+  margin-left:5%;
+  margin-top:8%;
+}
+.titre_membre{
+  padding-top: 5%;
+  padding-left: 15%;
+  color:#25766d;
+  font-weight: 700;
+}
+.skills{
+  color:#46b274;
+    padding-left: 15%;
+  font-weight: 400;
+  font-size: 30px;
+}
+.email{
+  color:#25766d ;
+    padding-left: 15%;
+  font-size: 20px;
+  font-weight: 400;
+}
+#florian{
+  margin-top:8%;
+  margin-left:5%;
+}
+
+#contenu2{
+  background-color:#ebe9e9;
+  margin-top:170px;
+  height:100%;
+}
+#raffou{
+  padding-top:100px;
+  margin-top:190px;
+  margin-left:5%;
+}
+
+#souley{
+  margin-top:170px;
+  margin-left:5%;
+}
+
+#membres2{
+
+}
+#contenu_questions2{
+	position: absolute;
+	top: 60%;
+    padding-left: 20px;
+    padding-top: 20px;
+    width:250px;
+    margin-top:-75%;
+
+}
+#bloc_questions2{
+	position: absolute;
+	top: 140%;
+    height:450px;
+    background-color:white;
+    width:350px;
+    border-radius:10px;
+    margin-left:70%;
+}
+
+#footer2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    padding-left: 60px;
+    background-color: #25766d;
+}

@@ -1,0 +1,202 @@
+@charset "utf-8";
+/*
+Theme Name: Webchronique
+Theme URI: http://www.npcmedia.fr
+Version: 1.6
+Description: Design by <a href="http://www.npcmedia.fr">NPC MEDIA Création</a>.
+Ce theme est protege par les droits d'auteurs.
+Author: NPC MEDIA Création
+Author URI: http://www.npcmedia.fr
+*/
+/*-------------------------------------*/
+/*------------[STYLES RESET]-----------*/
+/*-------------------------------------*/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr,
+acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike,
+strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label,
+legend,table, caption, tbody, tfoot, thead, tr, th, td
+{ margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%;
+vertical-align: baseline; }
+body { line-height: 1; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,q:before, q:after
+{ content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+/* Défini Abril Fatface pour toutes les balises h2, h3 */
+h2,h3,h1{font-family: 'Raleway', sans-serif; font-weight: 400;}
+
+/* Défini Open Sans pour toutes les balises p, a, h1 */
+p {font-family: 'Raleway', sans-serif; font-size: 30px; font-weight: 200;}
+
+/* Menu */
+
+
+#menu {
+	position: fixed;
+    width: 100%;
+    z-index: 10;
+	  }
+        a{
+			text-decoration: none;
+			color: white;
+			font-family:'Raleway', sans-serif;
+			display:block;
+		 }     
+	    a:hover{color: #46b274}
+        li{
+			font-size: 17px;
+			margin: 15px;
+			padding-left:10px;
+			line-height: 100%;
+			display: inline-block;
+          }
+        .logo{
+			margin: 20px;
+			display: inline-block;
+			  }
+
+		.pro{
+			border-width:2px;
+			border-style:solid;
+			border-color:white;
+			padding-left:15px;
+			padding-right:15px;
+			padding-top:5px;
+			padding-bottom:5px;
+			border-radius: 10px;
+			}
+
+        ul{
+			text-align: center;
+			list-style-type: none;
+			background-color: #25766d;
+			padding-right: auto;
+		  }	  
+
+/* Premier Bloc */
+
+
+#bloc1 {text-align: center;
+        background-image: url("../ressources_communes/aurore.jpg");
+        background-size: 100% auto;
+        width: 100%;
+        height: 100%;}
+
+/*SLIDER*/
+                .slide-1,
+                .slide-2,
+                .slide-3 {text-align: center;
+                          font-weight: 200;
+                          font-family: font-family: 'Raleway', sans-serif;
+                          font-size: 60px;
+                          position: absolute;
+                          top:20%;
+                          width: 100%;
+                          color: white;
+                        	animation-duration: 20s;
+                        	animation-timing-function: ease-in-out;
+                        	animation-iteration-count: infinite;}
+
+                .slide-1{animation-name: anim-1;}
+                .slide-2{animation-name: anim-2;}
+                .slide-3{animation-name: anim-3;}
+
+                @keyframes anim-1 {0%, 8.3% {opacity: 0; }
+                                  8.3%,25% {opacity: 1; }
+                                  33.33%, 100% {opacity: 0; }}
+
+                @keyframes anim-2 {0%, 33.33% {opacity: 0; }
+                                  41.63%, 58.29% {opacity: 1; }
+                                  66.66%, 100% {opacity: 0; }}
+
+                @keyframes anim-3 {0%, 66.66% {opacity: 0; }
+                                  74.96%, 91.62% {opacity: 1; }
+                                  100% {opacity: 0; }}
+/*FIN SLIDER*/
+
+            #laptop {position: absolute;
+                    bottom: 0;
+                    z-index: 1;}
+
+
+/* Deuxième bloc */
+
+#bloc2 {background-color:white;
+        width: 100%;
+        height: 100%;}
+
+.titre {font-size: 60px;
+        font-family: 'Raleway', sans-serif;
+        padding: 6%;
+        color: #46b274;}
+
+            #titre1 {text-align: left;
+                    position: absolute;
+                    left: 50%;}
+
+            #carre1 {margin-right: 50%;
+                      margin-left: 10%;
+                      margin-top: 5%;
+                      background-image: url("carre1.png");
+                      background-size: 100% auto;
+                      width: 30%;
+                      height: 68%;}
+
+            #contenu1 {text-align: left;
+                    font-weight:400;
+                    color: #2c5657;
+                    text-align:justify;
+                    position:absolute;
+                    left: 50%;
+                    top: 150%;}
+
+/* Troisème bloc */
+
+
+  #bloc3 {background-color: #f3f3f3;
+          width: 100%;
+          height: 100%;}
+
+          #titre2 {text-align: right;
+                  position: absolute;
+                  right: 50%;}
+
+          #carre2 {margin-right: 10%;
+                    margin-left: 60%;
+                    margin-top: 0%;
+                    background-image: url("carre2.png");
+                    background-size: 100% auto;
+                    width: 30%;
+                    height: 68%;}
+
+          #contenu2 {text-align: right;
+                    font-weight:400;
+                    color: #2c5657;
+                    position:absolute;
+                    right: 50%;
+                    top: 240%;}
+
+
+/* Footer */
+
+
+#footer2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    padding-left: 60px;
+    background-color: #25766d;
+}
+
+
+/* Polices utilisées : */
+
+font-family: 'Abril Fatface', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Helvetica Neue LT Std';
+font-family: 'Raleway', sans-serif;

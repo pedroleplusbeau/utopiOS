@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <title>Contact - UtopiOS</title>
+    <meta charset="utf-8">
+
+    <link rel="icon" type="image/ico" href="../ressources_communes/LogoUtopiOSFav.ico" />
+
+    <link rel="stylesheet" type="text/css" media="all" href="../ressources_communes/menu.css">
+    <link rel="stylesheet" type="text/css" media="all" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,500,700" rel="stylesheet">
+  </head>
+
+<body>
+
+
+<!-- Menu, il reste collé en haut de la page pendant la navigation -->
+<div id="menu">
+    <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="../telechargement/telechargement.html">Téléchargement</a></li>
+        <li><a href="../equipe/equipe.html">L'équipe</a></li>
+        <a class="logo" href="../index.html"><img src="../ressources_communes/utopi.png" height="18px" width="100px"></a>
+        <li><a href="../contact/contact.html">Contact</a></li>
+        <li><a href="../assistance/assistance.html">Assistance</a></li>
+        <li><a href="../partenaires/partenaires.html">Partenaires</a></li>
+    <li class="pro"><a href="../pro/pro.html">PRO</a></li>
+    </ul>
+</div>
+<div id="titre">
+			<h1>Nous contacter</h1>
+</div>
+
+
+<!-- Formulaire -->
+
+
+<div id="formulaire">
+<form action="toto.php" method="post" >
+
+<fieldset>
+ <legend>Coordonnées</legend>
+    <label><strong>Civilité</strong></label><br />
+      <select name="civilite">
+        <option>Madame</option>
+        <option>Monsieur</option>
+      </select>
+    <label><strong>Nom</strong></label><br /><input type="text" size="40" name="nom" id="nom" />
+    <label><strong>Prénom</strong></label><br /><input type="text" size="40" name="prenom" id="prenom" />
+	<label><strong>e-mail</strong></label><br /><input type="text" size="40" name="mail" id="mail" />
+  	
+</fieldset>
+
+<fieldset>
+ <legend>Votre message</legend>
+ <br />
+    <textarea cols="67" rows="10" name="message" id="message"></textarea>
+</fieldset>
+
+ <p>
+ <input type="button" value="Envoyer" onclick=window.location="envoye.html" >
+ <input type="reset" value="Annuler" />
+ </p>
+
+</form>
+
+  </div>
+
+	</div>
+</div>
+<div id="footer2">
+	Copyright © 2017 | UtopiOS
+</div>
+</body>
+</html>

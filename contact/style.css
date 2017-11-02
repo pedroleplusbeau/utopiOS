@@ -1,0 +1,119 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr,
+acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike,
+strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label,
+legend,table, caption, tbody, tfoot, thead, tr, th, td
+{ margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%;
+vertical-align: baseline; }
+
+
+h2,h3,h1{font-family: 'Raleway', sans-serif; font-weight: 200;}
+label, textarea, input, option, button, select{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; color: #25766d}
+ legend{font-family: 'Raleway', sans-serif; font-weight: 700; font-size: 25px; color: #25766d}
+p {font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 200; color: #25766d;}
+
+#contenu1{
+  background-color:#ebe9e9;
+  height: 100%;
+  width: 100%;
+}
+/* Menu */
+#menu {
+  position: fixed;
+    width: 100%;
+    z-index: 10;
+    }
+        a{
+      text-decoration: none;
+      color: white;
+      font-family:'Raleway', sans-serif;
+      display:block;
+     }     
+      a:hover{color: #46b274}
+        li{
+      font-size: 17px;
+      margin: 15px;
+      padding-left:10px;
+      line-height: 100%;
+      display: inline-block;
+          }
+        .logo{
+      margin: 20px;
+      display: inline-block;
+        }
+
+    .pro{
+      border-width:2px;
+      border-style:solid;
+      border-color:white;
+      padding-left:15px;
+      padding-right:15px;
+      padding-top:5px;
+      padding-bottom:5px;
+      border-radius: 10px;
+      }
+
+        ul{
+      text-align: center;
+      list-style-type: none;
+      background-color: #25766d;
+      padding-right: auto;
+      }  
+
+ /* Fin menu */
+
+  
+#titre{
+    padding:100px;
+    text-align:center;
+    font-size: 60px;
+    background-image: url("../ressources_communes/aurore.jpg");
+    background-size: 100% auto;
+    color:white;
+      }
+
+      
+/* FORMULAIRE */ 
+
+#formulaire {padding-left: 30%;}
+
+form {
+ padding:5%;
+ width:45%;
+ }
+fieldset {
+ padding:0 20px 20px 20px;
+ margin-bottom:5%;
+ border:1px solid #25766d;
+ }
+
+label {
+ margin-top:5%;
+ display:block;
+ }
+
+
+input, textarea, select {
+ padding:3px;
+ border:1px solid #25766d;
+ width:100%;
+ }
+
+input[type=button], input[type=reset] {
+ width:100px;
+ margin-left:5px;
+ box-shadow:2px 2px 1px #25766d;
+ cursor:pointer;
+ }
+
+
+
+/* footer */
+
+ #footer2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    padding-left: 60px;
+    background-color: #25766d;
+}
+

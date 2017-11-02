@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr,
+acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike,
+strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label,
+legend,table, caption, tbody, tfoot, thead, tr, th, td
+{ margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%;
+vertical-align: baseline; }
+
+
+h2,h3,h1{font-family: 'Raleway', sans-serif; font-weight: 200;}
+label, textarea, input, option, button, select{font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; color: #25766d}
+ legend{font-family: 'Raleway', sans-serif; font-weight: 700; font-size: 25px; color: #25766d}
+p {font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 200; color: #25766d;}
+
+/* Menu et Header */
+
+#contenu1{
+  background-color:#ebe9e9;
+  height: 100%;
+  width: 100%;
+}
+
+/* Menu */
+#menu {
+  position: fixed;
+    width: 100%;
+    z-index: 10;
+    }
+        a{
+      text-decoration: none;
+      color: white;
+      font-family:'Raleway', sans-serif;
+      display:block;
+     }     
+      a:hover{color: #46b274}
+        li{
+      font-size: 17px;
+      margin: 15px;
+      padding-left:10px;
+      line-height: 100%;
+      display: inline-block;
+          }
+        .logo{
+      margin: 20px;
+      display: inline-block;
+        }
+
+    .pro{
+      border-width:2px;
+      border-style:solid;
+      border-color:white;
+      padding-left:15px;
+      padding-right:15px;
+      padding-top:5px;
+      padding-bottom:5px;
+      border-radius: 10px;
+      }
+
+        ul{
+      text-align: center;
+      list-style-type: none;
+      background-color: #25766d;
+      padding-right: auto;
+      }  
+
+ /* Fin menu */
+      
+  
+#titre{
+    padding:100px;
+    text-align:center;
+    font-size: 60px;
+    background-image: url("../ressources_communes/aurore.jpg");
+    background-size: 100% auto;
+    color:white;
+      }
+
+/* Contenu de la page : Partenaires */
+
+/* Bloc du haut Première Partie */
+
+#contenu_vignette {
+  background-color: #f3f3f3;
+  height: 590px;
+  width: 100%;
+}
+
+.vignette {
+  width: 283px;
+  height: 187px;
+  text-align: center;
+  margin: 50px;
+  box-shadow: 1px 1px 4px 0px #25766d;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.vignette span {
+  font-family:'Arial';
+  font-size: 30px;
+  padding-top: 65px;
+  color: white;
+  background-color: #25766d;
+  width: 283px;
+  height: 188px;
+  display: block;
+  position: relative;
+  opacity: 0.8;
+}
+
+.vignette:hover span {
+  margin-top: -188px;
+  transition: 1s;
+}
+
+/* Bloc du bas Deuxième Partie */
+
+#contenu_bloc_du_bas {
+  width: 100%;
+  height: 200px;
+  background-color: #ffffff;
+}
+
+#contenu_text_titre {
+  font-size: 40px;
+  color: #46b274;
+  font-family:  'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#contenu_text_text {
+  font-size: 20px;
+  color: #2c5657;
+  font-family:  'Raleway', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Footer */
+
+#footer2{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    padding-left: 60px;
+    background-color: #25766d;
+}

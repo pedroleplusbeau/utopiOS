@@ -1,0 +1,150 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr,
+acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike,
+strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label,
+legend,table, caption, tbody, tfoot, thead, tr, th, td
+{ margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%;
+vertical-align: baseline; }
+/* Défini Abril Fatface pour toutes les balises h2, h3 */
+h2,h3,h1{font-family: 'Raleway', sans-serif; font-weight: 200;}
+
+/* Défini Open Sans pour toutes les balises p, a, h1 */
+p {font-family: 'Raleway', sans-serif; font-size: 14px; font-weight: 400; color: #25766d;}
+
+
+
+/* Menu */
+#menu {
+  position: fixed;
+    width: 100%;
+    z-index: 10;
+    }
+        a{
+      text-decoration: none;
+      color: white;
+      font-family:'Raleway', sans-serif;
+      display:block;
+     }     
+      a:hover{color: #46b274}
+        li{
+      font-size: 17px;
+      margin: 15px;
+      padding-left:10px;
+      line-height: 100%;
+      display: inline-block;
+          }
+        .logo{
+      margin: 20px;
+      display: inline-block;
+        }
+
+    .pro{
+      border-width:2px;
+      border-style:solid;
+      border-color:white;
+      padding-left:15px;
+      padding-right:15px;
+      padding-top:5px;
+      padding-bottom:5px;
+      border-radius: 10px;
+      }
+
+        ul{
+      text-align: center;
+      list-style-type: none;
+      background-color: #25766d;
+      padding-right: auto;
+      }  
+
+ /* Fin menu */
+      
+  
+#titre{
+    padding:100px;
+    text-align:center;
+    font-size: 60px;
+    background-image: url("../ressources_communes/aurore.jpg");
+    background-size: 100% auto;
+    color:white;
+      }
+	
+section{
+  display:flex;
+  height:470px;
+}
+#utopios{
+  width:50%;
+}
+
+#utopios a{
+  color: #46b274;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#utopios a:hover{
+  color: gray;
+}
+
+#pilotes{
+  width:50%;
+}
+
+#pilotes a{
+  color: #46b274;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+#pilotes   a:hover{
+  color: gray;
+}
+
+.titre_centrer{
+
+  padding-top:40px;
+  color:#25766d;
+  font-size: 50px;
+
+}
+
+h3{
+  color: #6f334d;
+}
+span{
+  word-spacing: 33px;
+}
+.update_gestion{
+  color: #46b274;
+  font-weight:400;
+          }
+
+.update_gris{
+  text-align: left;
+  background-color:#e9e9e9;
+  width:570px;
+}
+
+.update_foncer{
+  background-color:#d9d9d9;
+  width:570px;
+}
+.update_gris_clair{
+  background-color:#fcfcfc;
+  width:570px;
+}
+.description_update{
+  margin-top:30px;
+width:570px;
+}
+
+#footer2{position: fixed;
+  bottom: 0;
+  width: 100%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    padding-left: 60px;
+    background-color: #25766d;
+}
